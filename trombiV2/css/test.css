@@ -1,0 +1,6 @@
+.photo {display: inline;} 
+
+.photo>a>img { width: 10%; min-width: 90px; transition: transform 1s; } 
+
+.photo>a>img:hover {
+transform: scale(1.5); }

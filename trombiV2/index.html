@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TROMBINOSCOPE - DWWM - Promo 2019</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header class="row">
+			<div class="col-s-4">brand</div>
+			<div class="col-s-4">Title</div>
+			<div class="col-s-4">Login</div>	
+		</header>
+		<section id="trombi">
+			<div class="photo">
+				<a href="" title="toto"><img src="images/phototest.jpg" ></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+			<div class="photo">
+				<a href=""><img src="images/phototest.jpg"></a>
+			</div>
+		</section>
+		<section id="info">
+			section info
+		</section>
+		<section id="formulaire">
+			<hr />
+			<div id="selfWeather">
+				<h2>"Météo" personelle :</h2>
+				La journée de formation s'annonce-t-elle ensoleillée ou grisouille ? <br />
+				Ici je peux noter 
+				<form action="selfWeather.php" method="post">
+					<select name="gender">
+				        <option selected="selected" value="allGood">Ça va, tout roule (je peux soutenir les autres)</option>
+				        <option value="neutral">Neutre / Suisse : ni en galère ni à l'aise</option>
+				        <option value="helpMe">Ça ne va pas, j'ai besoin d'aide !</option>
+				        <option value="helpMePlus">Ça ne va pas, j'ai besoin d'aide (option bouée de sauvetage, hélico et chocolat chaud) !</option>
+				    </select>
+				</form>
+
+			</div>
+			<hr />
+			<div id="selfAppraisal">
+				<h2>Auto-évaluation :</h2>
+				<h4>Compétences :</h4>
+				<div id="guide">
+					<p>Guide d'évaluation des compétences :</p>
+					<ul>
+						<li>Acquis = je sais l'utiliser sans soucis / j'ai validé les exercices).</li>
+						<li>En cours (d'acquisition) 2/3  = je sais presque tout utiliser).</li>
+						<li>En cours 1/3 (je commence à me familiariser).</li>
+						<li> Non-acquis (pas encore vu).</li>
+					</ul>
+				</div>
+
+				<div id="actualForms">
+					<form id="level_html" action="/selfAppraisal.php" method="post">
+						HTML :  quel est mon niveau actuel ?
+					    <input checked="checked" name="newsletter" type="radio" value="ownLevel" /> Non-acquis
+					    <input name="newsletter" type="radio" value="weekly" /> En cours 1/3
+					    <input name="newsletter" type="radio" value="weekly" /> En cours 2/3
+					    <input name="newsletter" type="radio" value="weekly" /> Acquis
+					    <textarea cols="40" name="comments" rows="1" placeholder="Commentaire"></textarea> 
+					    <input type="submit" value="Submit" />
+					</form>
+						<form id="level_css" action="/selfAppraisal.php" method="post">
+						CSS :  quel est mon niveau actuel ?
+					    <input checked="checked" name="newsletter" type="radio" value="ownLevel" /> Non-acquis
+					    <input name="newsletter" type="radio" value="weekly" /> En cours 1/3
+					    <input name="newsletter" type="radio" value="weekly" /> En cours 2/3
+					    <input name="newsletter" type="radio" value="weekly" /> Acquis
+					    <textarea cols="40" name="comments" rows="1" placeholder="Commentaire"></textarea> 
+					    <input type="submit" value="Submit" />
+					</form>
+						<form id="level_php" action="/selfAppraisal.php" method="post">
+						PHP :  quel est mon niveau actuel ?
+					    <input checked="checked" name="newsletter" type="radio" value="ownLevel" /> Non-acquis
+					    <input name="newsletter" type="radio" value="weekly" /> En cours 1/3
+					    <input name="newsletter" type="radio" value="weekly" /> En cours 2/3
+					    <input name="newsletter" type="radio" value="weekly" /> Acquis
+					    <textarea cols="40" name="comments" rows="1" placeholder="Commentaire"></textarea> 
+					    <input type="submit" value="Submit" />
+					</form>
+						<form id="level_sql" action="/selfAppraisal.php" method="post">
+						SQL :  quel est mon niveau actuel ?
+					    <input checked="checked" name="newsletter" type="radio" value="ownLevel" /> Non-acquis
+					    <input name="newsletter" type="radio" value="weekly" /> En cours 1/3
+					    <input name="newsletter" type="radio" value="weekly" /> En cours 2/3
+					    <input name="newsletter" type="radio" value="weekly" /> Acquis
+					    <textarea cols="40" name="comments" rows="1" placeholder="Commentaire"></textarea> 
+					    <input type="submit" value="Submit" />
+					</form>
+				</div>
+			</div>
+			<hr />
+		</section>
+		<footer>
+			footer
+		</footer>
+	</div>
+</body>
+</html>
