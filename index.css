@@ -303,12 +303,22 @@ body{
     transform:scale(1.03);
 }
 
-.projectImg {
+.img-wrap {
+    display: flex;
+  }
+
+.img-wrap img {
     margin-top:15px;
-    height: 196px;
+    height:100%;
     border:1px solid #021a4042;
-    
-}
+    display: block;
+    /* position: absolute; */
+    /* top: 5%;
+    left: 5%; */
+    min-height: 100%;
+    min-width: 100%;
+    /* transform: translate(-10%, -10%); */
+  }
 
 .section_title {
     font-size:24px;
