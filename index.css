@@ -293,7 +293,7 @@ body{
     transition:0.4s ease-in-out;
     margin:2vh 0px;
     transform:scale(1);
-    background: rgba(255, 0, 0, 0.082);
+    background: rgba(255, 0, 0, 0.041);
 }
 
 .projects section:hover {
