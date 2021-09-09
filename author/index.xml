@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on GAILLOT Dimitri | Site personnel &amp; Portfolio</title>
-    <link>mijkami.github.io/author/</link>
+    <link>dimitrigaillot.com/author/</link>
     <description>Recent content in Authors on GAILLOT Dimitri | Site personnel &amp; Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="mijkami.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="dimitrigaillot.com/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>John Doe</title>
-      <link>mijkami.github.io/author/john-doe/</link>
+      <link>dimitrigaillot.com/author/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>mijkami.github.io/author/john-doe/</guid>
+      <guid>dimitrigaillot.com/author/john-doe/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
     </item>
     
     <item>
       <title>Mark Dinn</title>
-      <link>mijkami.github.io/author/mark-dinn/</link>
+      <link>dimitrigaillot.com/author/mark-dinn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>mijkami.github.io/author/mark-dinn/</guid>
+      <guid>dimitrigaillot.com/author/mark-dinn/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida.</description>
     </item>
     
